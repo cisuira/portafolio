@@ -5,6 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444; }
 
+p {
+  text-align: justify; }
+
 a {
   color: #bb0102;
   text-decoration: none; }
@@ -1004,7 +1007,8 @@ section {
         line-height: 24px;
         margin-bottom: 0;
         font-family: "Raleway", sans-serif;
-        color: #777777; }
+        color: #777777;
+        text-align: text-center; }
     #footer .footer-top h4 {
       font-size: 16px;
       font-weight: bold;
