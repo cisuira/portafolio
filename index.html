@@ -28,12 +28,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Mentor - v4.7.0
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
+
+
+
 </head>
 
 <body>
@@ -45,7 +43,7 @@
 <di class="Col-12 col-md-5 clearfix">
       <div class="logo" >
 
-    <a href="index.html"> <img src="assets/img/logo111.png" class="img-fluid" alt="" ></a> 
+    <a href="index.html"> <img src="assets/img/logo1.png" class="img-fluid" alt="" ></a> 
       </div>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -70,6 +68,7 @@
             <ul>
               <li><a href="Admisiones.html">Admisiones</a></li>       
               <li><a href="Bachilleres.html">Bachilleres</a></li>
+               <li><a class=" " href="calendario.html">Calendario Escolar</a></li>
            
          
              
@@ -90,70 +89,42 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <!-- ======= Hero slider ======= -->
+<div id="slider_front" class="carousel slide" data-bs-ride="carousel">
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background: url(assets/img/slide/slide-1.jpg)">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>A.I.E.C.C</span></h2>
-                <p class="animate__animated animate__fadeInUp"> </p>
-       
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-2.jpg)">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown">  <span>   </span></h2>
-                <p class="animate__animated animate__fadeInUp"> </p>
-          
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg)">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"> <span> </span></h2>
-                <p class="animate__animated animate__fadeInUp"></p>
-               
-              </div>
-            </div>
-          </div>
-       <div class="carousel-item" style="background: url(assets/img/slide/slide-4.jpg)">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">  <span> </span></h2>
-                <p class="animate__animated animate__fadeInUp"> .</p>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#slider_front" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#slider_front" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#slider_front" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#slider_front" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/slide/slide1.jpg" alt="" class="d-block" style="width:100%">
     </div>
-  </section><!-- End Hero -->
+    <div class="carousel-item">
+      <img src="assets/img/slide/slide2.jpg" alt="" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slide/slide3.jpg" alt="" class="d-block" style="width:100%">
+    </div>
+       <div class="carousel-item">
+      <img src="assets/img/slide/slide4.jpg" alt="" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#slider_front" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#slider_front" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
 
   <main id="main">
 
@@ -192,7 +163,7 @@
                 <div class="col-4">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <a href="Celebridad.html">
+                    <a href="galeria.html">
                     <h4> Galería </h4>
                      </a>
                   </div>
